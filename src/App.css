@@ -2,18 +2,25 @@
   text-align: center;
   animation: fadeInAnimation ease 5s;
   animation-fill-mode: forwards; 
+  background-color: #fbe3c0;
 }
 
 .App-logo {
-  height: 30vmin;
+  height: 20vmin;
   pointer-events: none;
+}
+
+.content {
+  margin-top: 5px;
+  min-height: 74vh;
 }
 
 .App-header {
   background-color: #fbe3c0;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
